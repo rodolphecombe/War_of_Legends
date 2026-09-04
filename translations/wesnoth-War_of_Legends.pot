@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-06-22 09:07\n"
+"POT-Creation-Date: 2026-08-27 08:53\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1381,37 +1381,54 @@ msgid ""
 " is poisoned, it will remove the poison instead of healing."
 msgstr ""
 
+#. [hides], id=swamp_prowl
+#: .\macros\abilities.cfg:299
+#: .\macros\abilities.cfg:300
+msgid "swamp prowl"
+msgstr ""
+
+#. [hides], id=swamp_prowl
+#: .\macros\abilities.cfg:301
+#: .\macros\abilities.cfg:304
+msgid ""
+"This unit can hide in swamps, and remain undetected by its enemies.\n"
+"\n"
+"Enemy units cannot see this unit while it is in a swamp hex, except if they "
+"have units next to it. Any enemy unit that first discovers this unit "
+"immediately loses all its remaining movement."
+msgstr ""
+
 #. [superior_life_form]
-#: .\macros\abilities.cfg:329
+#: .\macros\abilities.cfg:321
 msgid "superior life form"
 msgstr ""
 
 #. [superior_life_form]
-#: .\macros\abilities.cfg:330
+#: .\macros\abilities.cfg:322
 msgid ""
 "This unit emits a swarm of steel particles fortifying adjacent units with a "
 "temporary 20-HP boost that dissapears at the beginning of the following turn."
 msgstr ""
 
 #. [reprogram]
-#: .\macros\abilities.cfg:337
+#: .\macros\abilities.cfg:329
 msgid "reprogram"
 msgstr ""
 
 #. [reprogram]
-#: .\macros\abilities.cfg:338
+#: .\macros\abilities.cfg:330
 msgid ""
 "This unit leading aura is so powerful that it can make opposing steelhive "
 "units change side at the end of its turn."
 msgstr ""
 
 #. [metallizing_virus]
-#: .\macros\abilities.cfg:345
+#: .\macros\abilities.cfg:337
 msgid "metallizing virus"
 msgstr ""
 
 #. [metallizing_virus]
-#: .\macros\abilities.cfg:346
+#: .\macros\abilities.cfg:338
 msgid ""
 "Each time this unit hits with a melee weapon, it has a 5% chance to transmit "
 "the metallizing virus, turning the enemy into a member of the Steelhive. Does"
@@ -1775,48 +1792,6 @@ msgstr ""
 msgid ""
 "This unit can curse its enemies, reducing defense until they rest at a "
 "village, or advance a level."
-msgstr ""
-
-#. [message], speaker=narrator
-#: .\macros\scenario-utils.cfg:34
-msgid "To use a potion, right-click on any unit and select the appropriate option."
-msgstr ""
-
-#: .\macros\scenario-utils.cfg:39
-msgid "(Remaining doses: $healing_potion)"
-msgstr ""
-
-#: .\macros\scenario-utils.cfg:42
-msgid "(Remaining doses: $haste_potion)"
-msgstr ""
-
-#: .\macros\scenario-utils.cfg:45
-msgid "Use healing potion"
-msgstr ""
-
-#: .\macros\scenario-utils.cfg:48
-msgid "Use haste potion"
-msgstr ""
-
-#. [message], speaker=narrator
-#: .\macros\scenario-utils.cfg:92
-#: .\macros\scenario-utils.cfg:100
-msgid "Potions"
-msgstr ""
-
-#. [message], speaker=narrator
-#: .\macros\scenario-utils.cfg:93
-msgid "You have found $potion_totals."
-msgstr ""
-
-#. [message], speaker=narrator
-#: .\macros\scenario-utils.cfg:101
-msgid "You have found $potion_details, for a total of $potion_totals."
-msgstr ""
-
-#. [unstore_unit]
-#: .\macros\scenario-utils.cfg:148
-msgid "hasted!"
 msgstr ""
 
 #. [special_note]
@@ -5509,6 +5484,16 @@ msgid ""
 "are both life and life’s demise."
 msgstr ""
 
+#. [unit_type], id=Quenoth Fighter, race=quenoth
+#: .\units\elves-quenoth\Fighter.cfg:24
+msgid ""
+"Long ago, during more prosperous times, Elven warriors favored the use of "
+"swords as more elegant, versatile weapons compared to other melee armaments. "
+"However, in recent times, the dearth of supplies for smithing has reduced the"
+" availability of blade-crafting, necessitating the fashioning of cheaper, "
+"more easily repaired weaponry."
+msgstr ""
+
 #. [unit_type], id=Quenoth Night Hunter, race=quenoth
 #: .\units\elves-quenoth\Night_Hunter.cfg:5
 msgid "Quenoth Night Hunter"
@@ -8121,12 +8106,7 @@ msgid "female^Shadow Initiate"
 msgstr ""
 
 #. [unit_type], id=Shadow Lord, race=human
-#: .\units\human-outlaws\Shadow_Lord.cfg:5
-msgid "Shadow Lord"
-msgstr ""
-
-#. [unit_type], id=Shadow Lord, race=human
-#: .\units\human-outlaws\Shadow_Lord.cfg:20
+#: .\units\human-outlaws\Shadow_Lord.cfg:21
 msgid ""
 "Few humans fathom the secrets of light and dark magic and retain their "
 "sanity. Those that can master that balance become Shadow Lords, fully "
@@ -8135,18 +8115,13 @@ msgid ""
 "they lord over."
 msgstr ""
 
-#. [attack], type=blade, range=melee
-#: .\units\human-outlaws\Shadow_Lord.cfg:40
-msgid "astral blade"
-msgstr ""
-
 #. [attack], type=arcane, range=ranged
-#: .\units\human-outlaws\Shadow_Lord.cfg:53
+#: .\units\human-outlaws\Shadow_Lord.cfg:54
 msgid "noctum"
 msgstr ""
 
 #. [female]
-#: .\units\human-outlaws\Shadow_Lord.cfg:99
+#: .\units\human-outlaws\Shadow_Lord.cfg:100
 msgid "female^Shadow Lady"
 msgstr ""
 
@@ -8463,39 +8438,6 @@ msgid ""
 "defend the nest at all costs, their powerful mandibles and armored forms make"
 " them formidable opponents to any creature venturing near their subterranean "
 "domains."
-msgstr ""
-
-#. [unit_type], id=Cave Wyrm, race=monster
-#: .\units\monsters\Cave_Wyrm.cfg:5
-msgid "Cave Wyrm"
-msgstr ""
-
-#. [unit_type], id=Cave Wyrm, race=monster
-#: .\units\monsters\Cave_Wyrm.cfg:19
-msgid ""
-"Cave Wyrms are strange beasts, basically stout serpents with wings, but no "
-"legs. They are relatively rare, and their presence is attributed to some "
-"eccentric wizard or dragon. Mature Wyrms have excellent control of their fire"
-" breath attack, as if they are themselves miniature dragons."
-msgstr ""
-
-#. [attack], type=fire, range=ranged
-#: .\units\monsters\Cave_Wyrm.cfg:86
-#: .\units\monsters\Cave_Wyrmlet.cfg:84
-msgid "breath"
-msgstr ""
-
-#. [unit_type], id=Cave Wyrmlet, race=monster
-#: .\units\monsters\Cave_Wyrmlet.cfg:4
-msgid "Cave Wyrmlet"
-msgstr ""
-
-#. [unit_type], id=Cave Wyrmlet, race=monster
-#: .\units\monsters\Cave_Wyrmlet.cfg:17
-msgid ""
-"Cave Wyrms are strange beasts, basically stout serpents with wings, but no "
-"legs. They are relatively rare, and their presence is attributed to some "
-"eccentric wizard or dragon. The young are small, but hungry and aggressive."
 msgstr ""
 
 #. [special_note]

@@ -263,7 +263,7 @@ function wml_actions.prompt( cfg )
 		wml.variables[variable] = return_table.input
 	elseif return_value == 2 or return_value == -2 then -- if user pressed Cancel or Esc
 		wml.variables[variable] = "null" -- any better choice?
-	else wml.error( ( tostring( _"Prompt" ) .. ": " .. tostring( _"Error, return value :" ) .. tostring( return_value ) ) ) end -- any unhandled case is handled here
+	else wml.error( ( tostring( _"Prompt" ) .. ": " .. tostring( _"Error, return value:" ) .. tostring( return_value ) ) ) end -- any unhandled case is handled here
 end
 
 function wml_actions.choice_box( cfg )
@@ -434,5 +434,5 @@ function wml_actions.choice_box( cfg )
 		wml.variables[variable] = return_table.choice
 	elseif return_value == 2 or return_value == -2 then -- if user pressed Cancel or Esc
 		wml.variables[variable] = "null" -- any better choice?
-	else wml.error( ( tostring( _"Choice box" ) .. ": " .. tostring( _"Error, return value :" ) .. tostring( return_value ) ) ) end -- any unhandled case is handled here
+	else wml.error( ( tostring( _"Choice box" ) .. ": " .. tostring( _"Error, return value:" ) .. tostring( return_value ) ) ) end -- any unhandled case is handled here
 end
