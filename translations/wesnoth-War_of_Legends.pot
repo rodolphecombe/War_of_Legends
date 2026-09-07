@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2026-08-27 08:53\n"
+"POT-Creation-Date: 2026-09-07 14:54\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -235,10 +235,10 @@ msgid ""
 "on the newly established Kingdom of Wesnoth, not much of it was left "
 "standing. Not just Wesnoth, but the Orcish tribes who had just begun to "
 "settle in the Far North were caught in the conflict as well. Both factions "
-"had suffered insurmountable casaulties. The monarch of the Wesnothians had "
+"had suffered insurmountable casualties. The monarch of the Wesnothians had "
 "been defeated by one of the Dark Elementalist's chosen. Pushed to the brink "
 "of annihilation, the horde and loyalists set aside their past hospitalities "
-"and joined forces to survive the never ending hordes of Darkness."
+"and joined forces to survive the never-ending hordes of Darkness."
 msgstr ""
 
 #: .\eras\Legends_Conquest_Era.cfg:170
@@ -283,17 +283,16 @@ msgstr ""
 #: .\eras\Legends_Conquest_Era.cfg:250
 msgid ""
 "A remixed variant of the War of Legends era tailored to be played in World "
-"Conquest (preferably with Legends Conquest modificiations enabled). There are"
-" seven factions, each conforming to the World Conquest era rule as well as "
-"the the story setting of the Dark Irdya timeline.\n"
+"Conquest (preferably with Legends Conquest modifications enabled). There are "
+"seven factions, each conforming to the World Conquest era rule as well as the"
+" story setting of the Dark Irdya timeline.\n"
 "\n"
 "After the first decade of ceaseless attacks by the forces of the Dark "
 "Elementalist, various factions across Irdya have been compelled to band "
-"together to form an united front against their new and persistent "
-"adversaries. Certain allegiances could only be made due to geographical "
-"possibilities and some being former enemies casting aside their differences. "
-"The goal of all factions is survival as there seems to be no end to the enemy"
-" forces."
+"together to form a united front against their new and persistent adversaries."
+" Certain allegiances could only be made due to geographical possibilities and"
+" some being former enemies casting aside their differences. The goal of all "
+"factions is survival as there seems to be no end to the enemy forces."
 msgstr ""
 
 #. [Heroes_Horde]
@@ -331,7 +330,7 @@ msgstr ""
 #. [era], id=wol_rpg
 #: .\eras\War_of_Legends_RPG.cfg:9
 msgid ""
-"An era with lower level units: with level one leaders, with no units for "
+"An era with lower-level units: with level one leaders, with no units for "
 "recruitment. Consists of thirteen factions and is meant to be played in "
 "scenarios, which involve roleplaying elements (RPG)."
 msgstr ""
@@ -482,7 +481,7 @@ msgstr ""
 
 #: .\lua\gui_tags.lua:266
 #: .\lua\gui_tags.lua:437
-msgid "Error, return value :"
+msgid "Error, return value:"
 msgstr ""
 
 #: .\lua\gui_tags.lua:437
@@ -756,8 +755,8 @@ msgstr ""
 #. [attacks]
 #: .\macros\abilities-deep-elves.cfg:428
 msgid ""
-"When used in defense, this attacks reduces the attacker's number of strikes "
-"by 1."
+"When used in defense, this attack reduces the attacker's number of strikes by"
+" 1."
 msgstr ""
 
 #. [attacks]
@@ -868,7 +867,7 @@ msgstr ""
 
 #. [damage], id=WOL_thermal_shock
 #: .\macros\abilities-elemental.cfg:63
-msgid "This unit can attacks that can cause elemental reactions with fire."
+msgid "This unit has attacks that can trigger elemental reactions with fire."
 msgstr ""
 
 #. [damage], id=WOL_overload
@@ -885,7 +884,7 @@ msgstr ""
 
 #. [damage], id=WOL_overload
 #: .\macros\abilities-elemental.cfg:77
-msgid "This unit can attacks that can cause elemental reactions with electric."
+msgid "This unit has attacks that can trigger elemental reactions with electricity."
 msgstr ""
 
 #. [leadership], id=conjuror
@@ -1125,7 +1124,7 @@ msgstr ""
 #. [resistance], id=shield_help
 #: .\macros\abilities-new.cfg:468
 msgid ""
-"Allies standing next to this unit recieve +15% physical resistances (up to "
+"Allies standing next to this unit receive +15% physical resistances (up to "
 "30%)"
 msgstr ""
 
@@ -1179,7 +1178,7 @@ msgid ""
 "This unit can lead other (and allied) lower-level troops in battle. All "
 "adjacent lower-level units from the unit side and allied side deal 25% more "
 "damage for each difference in level. Units (own and allied) of the same level"
-" will get half of this bonus."
+" will deal 15% more damage."
 msgstr ""
 
 #. [leadership], id=allied_inspires
@@ -1277,7 +1276,7 @@ msgstr ""
 #. [regenerate], id=healing
 #: .\macros\abilities.cfg:146
 #: .\macros\abilities.cfg:148
-msgid "ice convalesence"
+msgid "ice convalescence"
 msgstr ""
 
 #. [regenerate], id=healing
@@ -1371,7 +1370,7 @@ msgstr ""
 
 #. [regenerate], id=healing
 #: .\macros\abilities.cfg:291
-msgid "terra resucitation"
+msgid "terra resuscitation"
 msgstr ""
 
 #. [regenerate], id=healing
@@ -1407,7 +1406,7 @@ msgstr ""
 #: .\macros\abilities.cfg:322
 msgid ""
 "This unit emits a swarm of steel particles fortifying adjacent units with a "
-"temporary 20-HP boost that dissapears at the beginning of the following turn."
+"temporary 20-HP boost that disappears at the beginning of the following turn."
 msgstr ""
 
 #. [reprogram]
@@ -1560,13 +1559,13 @@ msgid "prey crush"
 msgstr ""
 
 #. [modify_unit_type]
-#: .\macros\amlas-wol.cfg:1406
+#: .\macros\amlas-wol.cfg:1496
 msgid "Melee: +4 vanquishing slash damage."
 msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=arcane, range=ranged
-#: .\macros\amlas-wol.cfg:1502
+#: .\macros\amlas-wol.cfg:1603
 #: .\units\elves-wood\Ascetic.cfg:54
 #: .\units\elves-wood\Avatar.cfg:63
 #: .\units\elves-wood\Mystic.cfg:53
@@ -1575,8 +1574,8 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=fire, range=melee
-#: .\macros\amlas-wol.cfg:1513
-#: .\macros\amlas-wol.cfg:1524
+#: .\macros\amlas-wol.cfg:1614
+#: .\macros\amlas-wol.cfg:1625
 #: .\units\faeries\Faerie_Dryad.cfg:41
 #: .\units\faeries\Faerie_Spirit.cfg:66
 #: .\units\faeries\Faerie_Sprite.cfg:30
@@ -1586,8 +1585,8 @@ msgstr ""
 
 #. [modify_unit_type]
 #. [attack], type=fire, range=ranged
-#: .\macros\amlas-wol.cfg:1514
-#: .\macros\amlas-wol.cfg:1525
+#: .\macros\amlas-wol.cfg:1615
+#: .\macros\amlas-wol.cfg:1626
 #: .\units\faeries\Faerie_Dryad.cfg:50
 #: .\units\faeries\Faerie_Spirit.cfg:78
 #: .\units\faeries\Faerie_Sprite.cfg:39
@@ -2669,7 +2668,7 @@ msgstr ""
 #. [+multiplayer_side]
 #: .\macros\wol-legends-artifacts.cfg:42
 msgid ""
-"The durable plate of this heavy armor increase the user’s physical "
+"The durable plate of this heavy armor increases the user’s physical "
 "resistances (to a maximum of 15%) as well as raising their HP by 10. However,"
 " the user is slowed a bit due to its immense weight."
 msgstr ""
@@ -2731,7 +2730,7 @@ msgstr ""
 #. [artifact]
 #: .\macros\wol-legends-artifacts.cfg:222
 msgid ""
-"An waraxe which once belonged to Jotender of the Minotaurs. Equipping it, "
+"A waraxe which once belonged to Jotender of the Minotaurs. Equipping it, "
 "grants the user stronger melee blows and as well as the ferocity of its "
 "original wielder."
 msgstr ""
@@ -2746,8 +2745,8 @@ msgstr ""
 #: .\macros\wol-legends-artifacts.cfg:249
 #: .\macros\wol-legends-artifacts.cfg:250
 msgid ""
-"Attacking with this weapon increases damage by 50%, but reduces strikes by "
-"1.This effect is only action on offense."
+"Attacking with this weapon increases damage by 50%, but reduces strikes by 1."
+" This effect is only action on offense."
 msgstr ""
 
 #. [artifact]
@@ -2922,7 +2921,7 @@ msgstr ""
 
 #. [artifact]
 #: .\macros\wol-legends-artifacts.cfg:553
-msgid "This hammer has been enhanted to cause stun if a hit lands."
+msgid "This hammer has been enchanted to cause stun if a hit lands."
 msgstr ""
 
 #. [trainer]
@@ -3039,7 +3038,7 @@ msgstr ""
 
 #. [modification], id=knyght_wol_wc_enemy_data_array
 #: .\mods\multiplayer\War_of_Legends_World_Conquest.cfg:6
-msgid "World Conquest Enemy Data is overriden with War of Legends factions."
+msgid "World Conquest Enemy Data is overridden with War of Legends factions."
 msgstr ""
 
 #. [modification], id=knyght_wol_wc_legend_artifacts
@@ -3074,7 +3073,7 @@ msgid ""
 "Legends Conquest Multiplayer Era already comes with this modification enabled"
 " internally, and this is <b>only</b> for <i>War of Legends</i> and "
 "<i>Empowered Legends</i> Multiplayer Eras. Due to some restrictions, this "
-"modifications cannot be used with the core World Conquest Multiplayer Era "
+"modification cannot be used with the core World Conquest Multiplayer Era "
 "either."
 msgstr ""
 
@@ -3331,7 +3330,7 @@ msgid ""
 "Great, dark forests and caves are excellent places for mysterious creatures "
 "to live and hide in. Rarely seen, the mischievous fairies are some of the "
 "most beautiful beings who inhabit those parts. Their protective attitude "
-"towards nature make them friends of the elves who often share their "
+"towards nature makes them friends of the elves who often share their "
 "territory, but their whimsical personality and control over the fire element "
 "are characteristics that any creature foreign to their forests should fear "
 "and respect."
@@ -3403,7 +3402,7 @@ msgstr ""
 msgid ""
 "Harpies, often called bird-people, are humanlike creatures endowed with "
 "winged arms. They are thinner and much lighter than humans, and would be "
-"shorter than them if not for their long legs. They also bear other birdlikes "
+"shorter than them if not for their long legs. They also bear other birdlike "
 "features, like a feathered tail and clawed, scaly hands and feet. Harpies are"
 " prudent creatures, aware of their frailty and quick to flee when they sense "
 "danger. \n"
@@ -3418,7 +3417,7 @@ msgid ""
 "weapons and clothes. Their musical instruments are however highly valued by "
 "performers and connoisseurs alike. They trade feathers and food to merchants "
 "of other races for tools or materials, but most of the time they prefer to "
-"use their talents as courriers or scouts. \n"
+"use their talents as couriers or scouts. \n"
 "\n"
 "Harpies use powerful calls and songs to relay messages to other communities. "
 "Due to this way of communicating and their fast winged messengers, "
@@ -3498,9 +3497,10 @@ msgid ""
 "The Minotaurs are fearful creatures which are of ancient origin. They used to"
 " be humans which lived in the ancient times on the Great Continent, but a "
 "curse was placed upon the ancient civilization of these humans due to their "
-"disobedience towards their deity and creator. However some of the cursed ones"
-" prayed to their deity for forgiveness and therefore were rewarded with the "
-"inability to die by aging and therefore could only be killed by other means.\n"
+"disobedience towards their deity and creator. However, some of the cursed "
+"ones prayed to their deity for forgiveness and therefore were rewarded with "
+"the inability to die by aging and therefore could only be killed by other "
+"means.\n"
 "\n"
 "A minotaur's body is basically a fusion between that of a bull and a human. "
 "They also possess immense strength and some possess magical abilities granted"
@@ -3521,6 +3521,20 @@ msgstr ""
 #. [race], id=dragon
 #: .\units\monsters.cfg:7
 msgid "race+plural^Dragons"
+msgstr ""
+
+#. [race], id=dragon
+#: .\units\monsters.cfg:11
+msgid ""
+"A dragon is a cataclysm given form, an ancient power wrapped in scales, a "
+"legend spoken of in awe and dread and glimpsed only in the blackest hours of "
+"history. So rare are these titans that, absent the ruin they leave in their "
+"wake, they might be dismissed as mere myth born of old nightmares. Yet the "
+"shattered cities, the scorched battlefields, and the mountains cracked to "
+"their roots bear witness to a truth older than any kingdom: in the First "
+"Elemental War, when the world itself was rent asunder in cataclysm, it was "
+"the dragons who reigned as its apex, unrivaled and unchallenged, gods walking"
+" among lesser beings."
 msgstr ""
 
 #: .\units\nightmares-elementals.cfg:4
@@ -3577,7 +3591,7 @@ msgid ""
 "A literal example of the inefficiency inherent in power increase is the "
 "growth of Unstable Elementals, beings found in the south of the Wesnoth "
 "region. In their late stage the creatures become incarnations of the very "
-"wrath of nature. Far from exerting greater control over their ever increasing"
+"wrath of nature. Far from exerting greater control over their ever-increasing"
 " energy, the elemental becomes the puppet of its own excess emotion, like a "
 "child trapped within the overgrown body of a man, changing from one wild "
 "state to another in response to its environment.'"
@@ -3724,7 +3738,7 @@ msgstr ""
 msgid ""
 "The Windsong are a mysterious people, consisting completely of abducted "
 "female humans. Their numbers are few, and their goals and motives obscure. "
-"However they have demonstrated in the past that they are not to be trifled "
+"However, they have demonstrated in the past that they are not to be trifled "
 "with. They have strange powers, and massive libraries and towers full of "
 "books of ancient lore. Their armies though few in number have defeated all of"
 " the many who've attacked them, or whom they've decided to attack. Humans "
@@ -3879,8 +3893,8 @@ msgid ""
 "Dazed, Artingale staggered across the clearing, stepping over the shattered "
 "bones and dismembered limbs that littered the ground. The creature had burst "
 "suddenly from the undergrowth, giving his men no time to prepare a defense. "
-"In a matter of moments a third of the company had been mashed into paste, and"
-" the beast had raged off down the trail, evidently unconcerned with the "
+"In a matter of moments, a third of the company had been mashed into paste, "
+"and the beast had raged off down the trail, evidently unconcerned with the "
 "terrible wounds it had taken in return."
 msgstr ""
 
@@ -4164,7 +4178,7 @@ msgstr ""
 #. [unit_type], id=Drake Shockbringer, race=drake
 #: .\units\drakes\Shockbringer.cfg:20
 msgid ""
-"The armored drakes wielding warhammers with nearly dragonlike strength are "
+"The armored drakes wielding warhammers with nearly dragon-like strength are "
 "terrifyingly titled Shockbringers. The force generated by a single hammer "
 "blow from these intimidating warriors of the Fighter Caste is often "
 "sufficient to shatter any fortified defense. In contrast to the black armor "
@@ -4317,7 +4331,7 @@ msgid ""
 "valued by war-leaders and chieftains, and they are viewed with awe by "
 "ordinary dwarves, for they alone have plumbed the deepest and most "
 "closely-held secrets of dwarven knowledge. It is said that where a loremaster"
-" stands, there is the soul of the dwarves. To the abilities of the Annalist "
+" stands, there is the soul of the dwarves. To the abilities of the Annalist, "
 "they add a limited ability to heal."
 msgstr ""
 
@@ -4525,8 +4539,8 @@ msgstr ""
 #. [unit_type], id=Lesser Earth Daemon, race=elemental
 #: .\units\elementals\Earth_Daemon_1.cfg:27
 msgid ""
-"Rocks appear to have assembled themselves into some sort of animal... The are"
-" somewhat like a troll whelp, though more misshapen and they can belch "
+"Rocks appear to have assembled themselves into some sort of animal... They "
+"are somewhat like a troll whelp, though more misshapen and they can belch "
 "scratching dust. These things are nothing like the mudcrawlers, there is "
 "something much more sinister at work."
 msgstr ""
@@ -4648,8 +4662,8 @@ msgstr ""
 #: .\units\elementals\stable\Brazier_Whelpling.cfg:23
 msgid ""
 "Brazier Whelplings are Brazier Imps which have not completely hardened yet, "
-"thus they are weaker than their older siblings. Not an imposing threat, but "
-"once they harden they are much more of a threat."
+"thus they are weaker than their older siblings. Not an imposing threat but, "
+"once they harden, they are much more of a threat."
 msgstr ""
 
 #. [unit_type], id=Furnace Beast, race=elemental
@@ -4762,7 +4776,7 @@ msgstr ""
 #. [unit_type], id=Mistral, race=elemental
 #: .\units\elementals\stable\Mistral.cfg:22
 msgid ""
-"Mistrals are truly mighty windspirits who can decimate armies with their "
+"Mistrals are truly mighty wind spirits who can decimate armies with their "
 "powerful winds, and strike down men with their glistening scimitar."
 msgstr ""
 
@@ -4803,7 +4817,7 @@ msgstr ""
 #. [unit_type], id=Razorbird, race=elemental
 #: .\units\elementals\stable\Razorbird.cfg:22
 msgid ""
-"Lightning is not an element, however air elementals can take the form of a "
+"Lightning is not an element; however, air elementals can take the form of a "
 "bird which can control it. These birds have razor feathers which can slice "
 "anything but they need more energy to generate a lightning bolt."
 msgstr ""
@@ -4855,7 +4869,7 @@ msgstr ""
 msgid ""
 "As winds spirits stay in their physical form, they grow stronger, as does "
 "their power over winds. The advanced ability to control or herd winds allows "
-"the elemental to attack with more force. In addition they are now strong "
+"the elemental to attack with more force. In addition, they are now strong "
 "enough to hold a dagger."
 msgstr ""
 
@@ -4872,7 +4886,7 @@ msgstr ""
 #. [unit_type], id=Thunderbird, race=elemental
 #: .\units\elementals\stable\Thunderbird.cfg:23
 msgid ""
-"Using its metal feathers the Thunderbird is able to create powerfull sparks "
+"Using its metal feathers, the Thunderbird is able to create powerful sparks "
 "that can be thrown at long range."
 msgstr ""
 
@@ -4930,7 +4944,7 @@ msgstr ""
 msgid ""
 "Being swift and ferocious Vine Tigers are not to be trifled with, due to the "
 "fact that they can hide well in forested areas and are very powerful. In "
-"addition, these beast can blast barrages of thorns at prey and can ensnare "
+"addition, these beasts can blast barrages of thorns at prey and can ensnare "
 "their victims with the vines which compose this beast's body. To make matters"
 " even worse these beasts seem to have the ability to heal themselves by "
 "sapping the energy from forested areas, thus healing themselves."
@@ -4945,7 +4959,7 @@ msgstr ""
 #: .\units\elementals\stable\Wisp.cfg:33
 msgid ""
 "These mysterious beings are composed of pure, yet unstable arcane magic. "
-"Although they are weak they are easy to create and can bind to an element "
+"Although they are weak, they are easy to create and can bind to an element "
 "once they gather enough power to do so."
 msgstr ""
 
@@ -5001,9 +5015,7 @@ msgstr ""
 
 #. [chance_to_hit], id=eagle eye
 #: .\units\elves-deep\Baroness.cfg:55
-#: .\units\elves-deep\Nightmaiden.cfg:54
-#: .\units\elves-deep\Nightstalker.cfg:54
-msgid "has always a 80% chance to hit"
+msgid "has always an 80% chance to hit"
 msgstr ""
 
 #. [attack], type=blade, range=melee
@@ -5207,6 +5219,12 @@ msgstr ""
 msgid "nether blade"
 msgstr ""
 
+#. [chance_to_hit], id=eagle eye
+#: .\units\elves-deep\Nightmaiden.cfg:54
+#: .\units\elves-deep\Nightstalker.cfg:54
+msgid "has always a 80% chance to hit"
+msgstr ""
+
 #. [unit_type], id=Night Stalker, race=deep_elf, gender=female
 #: .\units\elves-deep\Nightstalker.cfg:5
 msgid "Night Stalker"
@@ -5264,13 +5282,13 @@ msgstr ""
 #. [unit_type], id=Predator, race=deep_elf, gender=female
 #: .\units\elves-deep\Predator.cfg:24
 msgid ""
-"Whoever has incurred the hatred of the ghostly apparition that is the Seeker "
-"will find death. Immune to both swords and arrows, Seekers are said to be "
-"able freely traverse through walls, relentlessly pursing their marked "
-"quarries. The hunted prey is plagued with nightmares of its own death until "
-"the Seeker’s blade transforms its visions into reality. It is said that the "
-"Seeker’s sword consumes the souls of its marks, imprisoning them within a "
-"cage of cold steel."
+"Whoever has incurred the hatred of the ghostly apparition that is the "
+"Predator will find death. Immune to both swords and arrows, Predators are "
+"said to be able freely traverse through walls, relentlessly pursing their "
+"marked quarries. The hunted prey is plagued with nightmares of its own death "
+"until the Predator’s blade transforms its visions into reality. It is said "
+"that the Predator’s sword consumes the souls of its marks, imprisoning them "
+"within a cage of cold steel."
 msgstr ""
 
 #. [unit_type], id=Priestess of the Vault, race=deep_elf, gender=female
@@ -5435,8 +5453,8 @@ msgstr ""
 #: .\units\elves-deep\Wisp_Mother.cfg:24
 msgid ""
 "Wispmothers are rare beings that glow with mysterious, eerie energy that "
-"simultaneously appears as light, but also melds with the darkness. Often they"
-" are surrounded by many Wisps and Greater Wisps, who are attracted and "
+"simultaneously appears as light, but also melds with the darkness. Often, "
+"they are surrounded by many Wisps and Greater Wisps, who are attracted and "
 "empowered by the energy that the Wispmothers emit. The Wispmother, in turn, "
 "controls the lesser Wisps like the queen of a hive, directing them with "
 "unknown purpose. It is rumored that Wispmothers are not related to the "
@@ -5827,8 +5845,8 @@ msgstr ""
 msgid ""
 "Faeries may eventually become one with the fire element, turning into spirits"
 " of flame and might, which they will use to relentlessly protect the forests "
-"they inhabit or people to which they have swore allegiance. However, seeing "
-"one of these spirits is more rare than stumbling upon a Wose, even for elves."
+"they inhabit or people to which they have sworn allegiance. However, seeing "
+"one of these spirits is rarer than stumbling upon a Wose, even for elves."
 msgstr ""
 
 #. [unit_type], id=Faerie Sprite, race=faerie, gender=female
@@ -5896,8 +5914,8 @@ msgid ""
 "Marlgoyles are simply Gargoyles whose magic has caused it to grow more "
 "powerful after absorbing enough blood. Marlgoyles appear to have a lustrous "
 "gold coating which makes it more durable and such, the magic will continue to"
-" strengthen the Marlgoyle as long as it gets more blood; however it will only"
-" increase its durability."
+" strengthen the Marlgoyle as long as it gets more blood; however, it will "
+"only increase its durability."
 msgstr ""
 
 #. [unit_type], id=Gnoll Deadeye, race=gnoll
@@ -6045,7 +6063,7 @@ msgid ""
 "within their tribe. Their methods are often crude and involve more chanting "
 "and strange poultices than actual medicine, but they're better than nothing "
 "in the heat of battle. Orcs tolerate them, seeing their abilities as a quirky"
-" benefit rather than true skill"
+" benefit rather than true skill."
 msgstr ""
 
 #. [unit_type], id=Hellwolf Rider, race=wolf
@@ -6357,7 +6375,7 @@ msgstr ""
 #: .\units\harpies\Messenger.cfg:20
 msgid ""
 "Due to their numerous travels, harpy wanderers end up mingling with other "
-"races a lot more. Often they will offer their service as long range "
+"races a lot more. Often, they will offer their service as long-range "
 "messengers to various folk. The time spent hunting in the wild has given them"
 " keen eyes which serve them well in battle also. "
 msgstr ""
@@ -6371,7 +6389,7 @@ msgstr ""
 #: .\units\harpies\Minstrel.cfg:19
 msgid ""
 "Harpies avoid other races whenever possible, and are seldom welcomed warmly. "
-"There is however an exception : minstrels are renowned for their incredible "
+"There is however an exception: minstrels are renowned for their incredible "
 "singing. Some say their voice can make anyone fall in awe and completely "
 "forget their surroundings. Although the public usually admires their talent, "
 "people sometimes fear their supposed powers.\n"
@@ -6456,8 +6474,8 @@ msgstr ""
 #. [unit_type], id=Harpy Raptortongue, race=harpy, gender=female
 #: .\units\harpies\Raptortongue.cfg:20
 msgid ""
-"Over time falconeers efficiently learn the falcons' language. As the bird "
-"ages their tamer often will bring in new recruits for taming. "
+"Over time falconers efficiently learn the falcons' language. As the bird ages"
+" their tamer often will bring in new recruits for taming. "
 msgstr ""
 
 #. [unit_type], id=Harpy Rockthrower, race=harpy, gender=female
@@ -6521,9 +6539,8 @@ msgstr ""
 msgid ""
 "Some harpy singers chose to live away from land, secluded in places where "
 "they can become one with the wind. They spend days meditating at sea to "
-"listen to the song of the gales. When their kin calls for help however, their"
-" mastery of weather lets them summon fierce storms that scatter enemy troops."
-" "
+"listen to the song of the gales. When their kin call for help however, their "
+"mastery of weather lets them summon fierce storms that scatter enemy troops. "
 msgstr ""
 
 #. [attack], type=fire, range=ranged
@@ -6547,13 +6564,13 @@ msgstr ""
 
 #. [unit_type], id=Harpy Traveller, race=harpy, gender=female
 #: .\units\harpies\Traveller.cfg:4
-msgid "Harpy Traveller"
+msgid "Harpy Traveler"
 msgstr ""
 
 #. [unit_type], id=Harpy Traveller, race=harpy, gender=female
 #: .\units\harpies\Traveller.cfg:20
 msgid ""
-"Harpies by nature see more of the world than non winged folks, and some of "
+"Harpies by nature see more of the world than non-winged folks, and some of "
 "them long to see what is beyond the horizon. Those that follow this path are "
 "among the fastest and most agile flyers in the sky. "
 msgstr ""
@@ -6608,7 +6625,7 @@ msgstr ""
 #: .\units\human-aragwaithi\Aragwaith_Archer.cfg:18
 msgid ""
 "The Aragwaithi are a noble people, fragile in body, but their training makes "
-"them among the most deadly denizens of this world. Their archers are no "
+"them among the deadliest denizens of this world. Their archers are no "
 "exception. Their skills with a bow are comparable to those of some elves, and"
 " they are remarkably quick with their daggers."
 msgstr ""
@@ -6629,7 +6646,7 @@ msgid ""
 "And, paradoxically, it is a skill that is useless on its own; for its true "
 "value lies in those who stand by those who have it. It is, as that king goes "
 "on to say, an ability that belongs to others as much to oneself. Such lesson "
-"is one that a flagbearer learns across the years; once he fully understand "
+"is one that a flagbearer learns across the years; once he fully understands "
 "it, he finds himself surrounded by those whose hearts he's earned, whose "
 "souls have been filled with his bravery, and who have learned to become "
 "greater than they are through his example. With banners embroidered with "
@@ -6828,7 +6845,7 @@ msgid ""
 "hold the line in the great battles until the reinforcements arrived, but they"
 " paid a high price, not many survived the battle and many others died through"
 " their strong wounds. Now only the best warriors are allowed to carry these "
-"ancient shields to remind the world and to honour these brave man and their "
+"ancient shields to remind the world and to honour these brave men and their "
 "sacrifice."
 msgstr ""
 
@@ -7092,7 +7109,7 @@ msgstr ""
 #: .\units\human-legion\Berserker.cfg:18
 msgid ""
 "Some soldiers of the Legion decide that it would be better if they went "
-"berserk on their foes. For this purpose they leave behind their shield and "
+"berserk on their foes. For this purpose, they leave behind their shield and "
 "sword and take up a broadsword."
 msgstr ""
 
@@ -7186,7 +7203,7 @@ msgid ""
 " expertise and knowledge. At this point, they often focus on teaching novice "
 "medics so that the skill they so meticulously honed does not get lost in the "
 "passage of time. Many of them might even write one or two treatises on "
-"medical lore, copies of which are often seen as prized posessions. Many of "
+"medical lore, copies of which are often seen as prized possessions. Many of "
 "them expand their expertise to not only physical but also mental and "
 "spiritual domain as well, capable of channeling arcane magic into massive "
 "beams of holy light, used to banish the most dangerous of spirits.\n"
@@ -7366,8 +7383,9 @@ msgid ""
 "travel the world, ministering to sickness and injury, for this is what truly "
 "sets their heart at peace.\n"
 "Though not trained for combat, they are a potent ally against magical or "
-"unnatural things, due to sheer amount of magical knowledge they posess. Often"
-" they use magical beams of light to deal with spirtual threats as well."
+"unnatural things, due to sheer amount of magical knowledge they possess. "
+"Often, they use magical beams of light to deal with spiritual threats as "
+"well."
 msgstr ""
 
 #. [unit_type], id=Legion Pillager, race=human
@@ -7708,9 +7726,10 @@ msgid ""
 "Long time spent on understanding the properties of water and the "
 "corresponding magic can eventually grant the mage valuable insights on the "
 "properties on matter itself. No longer limited to manipulation of liquids, "
-"they are now capable of modifying the intrinsic coldness of surronding matter"
-" itself. When challenged, they can easily turn their opponents into a living "
-"statue of ice or decimate them with massive water waves out of nowhere."
+"they are now capable of modifying the intrinsic coldness of surrounding "
+"matter itself. When challenged, they can easily turn their opponents into a "
+"living statue of ice or decimate them with massive water waves out of "
+"nowhere."
 msgstr ""
 
 #. [unit_type], id=Frost Mage, race=human, gender=female
@@ -7743,7 +7762,7 @@ msgstr ""
 msgid ""
 "Certain female apprentices are chosen from their admission into the academies"
 " to study the magic art of light. After graduation, they become Adepts, "
-"capable of giving a phyical form to the light itself. These magi can summon "
+"capable of giving a physical form to the light itself. These magi can summon "
 "the Light in the form of energy balls and are able slightly heal wounded "
 "allies."
 msgstr ""
@@ -8032,9 +8051,9 @@ msgstr ""
 #. [unit_type], id=Shaman, race=human, gender=male
 #: .\units\human-outlaws\Rogue_Shaman.cfg:18
 msgid ""
-"The study of magic followed by the these mages is based on both healing and "
-"fire. The shamans are skilled in both close and long ranged combat but "
-"proficient in neither."
+"The study of magic followed by these mages is based on both healing and fire."
+" The shamans are skilled in both close and long ranged combat but proficient "
+"in neither."
 msgstr ""
 
 #. [unit_type], id=Rogue Slayer, race=human
@@ -8156,7 +8175,7 @@ msgstr ""
 #: .\units\human-outlaws\Tracker.cfg:21
 msgid ""
 "Frontier villages or towns do not always have a garrison watching over them. "
-"Thus, it is required for every able-bodied men and even women to take up arms"
+"Thus, it is required for every able-bodied man and even woman to take up arms"
 " in times of a raid on their homes. While the men take clubs, daggers, or "
 "bows, women have to make due with staffs and slings. Though not strong enough"
 " to defeat an enemy by themselves, these women are extremely hard to hit due "
@@ -8238,8 +8257,8 @@ msgstr ""
 msgid ""
 "Boar Riders who know how to use their companions to their full potential are "
 "promoted to Boar Knights. While Boar Knights carry regular weapons, their "
-"real potential lies in the strength of their companion, due to their ever "
-"growing bond."
+"real potential lies in the strength of their companion, due to their "
+"ever-growing bond."
 msgstr ""
 
 #. [unit_type], id=Boar Rider, race=minotaur
@@ -8266,7 +8285,7 @@ msgid ""
 "Kusarigamas are noble and highly useful weapons that are difficult to master."
 " The cutthroats have gazed upon the power of a kusarigama master and they "
 "wish to achieve such mastery. Although cutthroats lack experience with their "
-"weapon they can still make some use of it."
+"weapon, they can still make some use of it."
 msgstr ""
 
 #. [attack], type=blade, range=melee
@@ -8312,7 +8331,7 @@ msgid ""
 "wielding it; instead of wielding it like a scythe, they prefer to wield it "
 "like a claw. Even though these powerful warriors will kill most of the "
 "enemies they face, they like to play it safe by poisoning their weapon. Most "
-"foolhardy archers think they can easily defeat an Executioner, however they "
+"foolhardy archers think they can easily defeat an Executioner; however, they "
 "likely have not been acquainted with the weight and chain that makes the "
 "kusarigama such an effective weapon."
 msgstr ""
@@ -8339,9 +8358,9 @@ msgstr ""
 msgid ""
 "Although the Warlocks and the Elders are more famous for their very lofty "
 "role, more powerful magic and the mysterious crystals which they wield, the "
-"Mystics are superior to the Warlocks and the Elders in a few ways. First they"
-" can levitate, such an ability is very useful in battle; second they are "
-"physically stronger than their counterparts; third they possess healing "
+"Mystics are superior to the Warlocks and the Elders in a few ways. First, "
+"they can levitate, such an ability is very useful in battle; second, they are"
+" physically stronger than their counterparts; third, they possess healing "
 "abilities. All these qualities make the Mystics a terrifying force on the "
 "battle field, therefore they should not be taken lightly."
 msgstr ""
@@ -8355,9 +8374,9 @@ msgstr ""
 #: .\units\minotaurs\Overlord.cfg:20
 msgid ""
 "A minotaur that has been recognized for their skill, leadership ability and "
-"intelligence is bestowed the title of 'overlord'. Basically the overlord rank"
-" is the minotaur equivalent to the human rank of general. Overlords plan all "
-"the battle strategies and whatnot, and unlike human generals, overlords "
+"intelligence is bestowed the title of 'overlord'. Basically, the overlord "
+"rank is the minotaur equivalent to the human rank of general. Overlords plan "
+"all the battle strategies and whatnot, and unlike human generals, overlords "
 "sometimes willingly participate directly in battle in order to further "
 "inspire their comrades to perform their best."
 msgstr ""
@@ -8404,10 +8423,10 @@ msgstr ""
 #: .\units\minotaurs\Slayer.cfg:19
 msgid ""
 "Learning how to properly and effectively wield a kusarigama is pure drudgery;"
-" however that does not stop those eager to eventually gain the power and "
+" however, that does not stop those eager to eventually gain the power and "
 "skill of a master. Since slayers are still learning how to have near-perfect "
 "control of their weapon they choose not to use poison like the executioners "
-"do. Slayers are not quite masters yet; however they are still quite skilled "
+"do. Slayers are not quite masters yet; however, they are still quite skilled "
 "with their kusarigamas; therefore, slayers are not to be underestimated."
 msgstr ""
 
@@ -8475,6 +8494,26 @@ msgid ""
 "Ancient and imperious, this dragon rules through scorching dominance, its "
 "very presence turning the sky amber and the ground beneath it to cracked, "
 "smoldering earth."
+msgstr ""
+
+#. [unit_type], id=Flesh Golem, race=undead
+#: .\units\monsters\Flesh_Golem.cfg:5
+msgid "Flesh Golem"
+msgstr ""
+
+#. [unit_type], id=Flesh Golem, race=undead
+#: .\units\monsters\Flesh_Golem.cfg:26
+msgid ""
+"Incredibly strong constructs, flesh golems are created by powerful "
+"necromancers from the bodies of fallen warriors. Though these golems "
+"dutifully follow every command, and attack their enemies with ceaseless rage,"
+" the madness that possesses them has occasionally caused them to turn on "
+"their masters."
+msgstr ""
+
+#. [attack], type=impact, range=melee
+#: .\units\monsters\Flesh_Golem.cfg:31
+msgid "smashing frenzy"
 msgstr ""
 
 #. [unit_type], id=Forgotten Minotaur, race=minotaur
@@ -8625,7 +8664,11 @@ msgid ""
 msgstr ""
 
 #. [attack], type=cold, range=melee
+#. [attack], type=blade, range=melee
 #: .\units\monsters\Ice_Ghost.cfg:28
+#: .\units\nightmares-elementals\Rime_Reaver.cfg:29
+#: .\units\nightmares-elementals\Rime_Wisp.cfg:29
+#: .\units\nightmares-elementals\Rime_Wraith.cfg:28
 #: .\units\steelhive\steel_leviathan.cfg:38
 msgid "frost claws"
 msgstr ""
@@ -8656,7 +8699,7 @@ msgid ""
 "Owls. As a result, they are better insulated against the cold and even have "
 "some protection against being struck, though a well-placed piercing arrow "
 "will pass through their feathers. Like the common owls, they tend to follow "
-"wold-packs, picking off the wounded or panicked prey flushed out by the "
+"wolf-packs, picking off the wounded or panicked prey flushed out by the "
 "canine predators."
 msgstr ""
 
@@ -8725,7 +8768,7 @@ msgid ""
 "\n"
 "Crystals are bound to the will of whoever controls 'The Mandate'. As they are"
 " barely present in reality, they can teleport between areas of high cipher "
-"activity (friendly towns). Also a consequence of this is their immunity to "
+"activity (friendly towns). Also, a consequence of this is their immunity to "
 "Drain, Poison and Plague. Crystals are crystalline in nature and so have "
 "unusual resistances. Crystals are never destroyed, they are merely 'pushed "
 "out' of reality."
@@ -8756,15 +8799,15 @@ msgid ""
 "could travel quickly and were able to perform a variety of tasks. The cipher,"
 " the only power used by the Windsong, was capable of carving such servants "
 "from The Raw and binding them into reality. But this required the full "
-"attention of an Ascendant to maintain even a handful of these Shards. And so "
-"the Windsong gathered the most powerful Cryptographers (those who use "
+"attention of an Ascendant to maintain even a handful of these Shards. And so,"
+" the Windsong gathered the most powerful Cryptographers (those who use "
 "ciphers) to the Foundation, and had them construct an artifact of "
 "unimaginable, though very defined, power to do it for them. It took centuries"
 " to create, but with it the Windsong were finally complete.\n"
 "\n"
 "Shards are bound to the will of whoever controls 'The Mandate'. As they are "
 "barely present in reality, they can teleport between areas of high cipher "
-"activity (friendly towns). Also a consequence of this is their immunity to "
+"activity (friendly towns). Also, a consequence of this is their immunity to "
 "Drain, Poison and Plague. Shards are crystalline in nature and so have "
 "unusual resistances. Shards are never destroyed, they are merely 'pushed out'"
 " of reality."
@@ -8785,9 +8828,9 @@ msgid ""
 "monsters are simply a manifestation of that danger.\n"
 "\n"
 "As they are constructs of snow and ice, they can repair and regenerate when "
-"in a favorable envirnoment.  However, the icy regrowth seems prone to errors,"
+"in a favorable environment.  However, the icy regrowth seems prone to errors,"
 " so while they were likely formed in the image of ideal warriors, they have "
-"become mishapen and their movement thus compromised.  This malformation is "
+"become misshapen and their movement thus compromised.  This malformation is "
 "most obvious in their hand and arms, which take the most damage."
 msgstr ""
 
@@ -8880,7 +8923,7 @@ msgstr ""
 msgid ""
 "Naga Hunters are Naga who are skilled at hunting with a bow. Since the naga "
 "are naturally resistant to poison, they have no qualms about hunting with "
-"poisoned arrows. These two foot long shafts, tipped with a potent poison, "
+"poisoned arrows. These two-foot-long shafts, tipped with a potent poison, "
 "have been known to slay many kinds of prey."
 msgstr ""
 
@@ -8989,8 +9032,8 @@ msgstr ""
 #: .\units\nightmares\Life_Thief.cfg:20
 msgid ""
 "In her moments of happiness, Meloen enjoyed gazing at butterflies. In these "
-"rare moments of meditation she became conscious of their short lives and felt"
-" her own mortality deeply.\n"
+"rare moments of meditation, she became conscious of their short lives and "
+"felt her own mortality deeply.\n"
 "\n"
 "While pregnant, Meloen dreamed of an eerie spirit shaped like a butterfly, "
 "floating above her and the child she was holding. She immediately identified "
@@ -9100,6 +9143,51 @@ msgstr ""
 #: .\units\nightmares-elementals\Nature_Wrath.cfg:509
 #: .\units\nightmares-elementals\Unstable_Elemental.cfg:508
 msgid "toxic spray"
+msgstr ""
+
+#. [unit_type], id=Rime Reaver, race=elemental
+#: .\units\nightmares-elementals\Rime_Reaver.cfg:5
+msgid "Rime Reaver"
+msgstr ""
+
+#. [unit_type], id=Rime Reaver, race=elemental
+#: .\units\nightmares-elementals\Rime_Reaver.cfg:20
+msgid ""
+"The Reaver has drifted so long it no longer resembles the aimless thing it "
+"once was, its passage through countless skirmishes hardening it into "
+"something that mends itself as readily as it wounds others. It stands as much"
+" a monument to Panarbori's spent rage as the wildfires and storms that share "
+"its origin — not through fury, but through a cold that simply refuses to end."
+msgstr ""
+
+#. [unit_type], id=Rime Wisp, race=elemental
+#: .\units\nightmares-elementals\Rime_Wisp.cfg:5
+msgid "Rime Wisp"
+msgstr ""
+
+#. [unit_type], id=Rime Wisp, race=elemental
+#: .\units\nightmares-elementals\Rime_Wisp.cfg:20
+msgid ""
+"A scrap of frost left behind when a greater fury burns itself out, the Rime "
+"Wisp is barely more than drifting cold given the vaguest sense of shape. It "
+"skitters just out of reach of anything that might harm it, and what little "
+"damage does land only slows it for a moment — the cold in it simply reforms, "
+"the way frost does on a windowpane no matter how many times it's wiped away."
+msgstr ""
+
+#. [unit_type], id=Rime Wraith, race=elemental
+#: .\units\nightmares-elementals\Rime_Wraith.cfg:5
+msgid "Rime Wraith"
+msgstr ""
+
+#. [unit_type], id=Rime Wraith, race=elemental
+#: .\units\nightmares-elementals\Rime_Wraith.cfg:19
+msgid ""
+"Lingering longer than most of its kind, the Rime Wraith has sharpened its "
+"drift into something closer to purpose, striking and slipping away before "
+"real harm can catch up to it. Its claws don't cut so much as chill, leaving a"
+" cold behind that settles into flesh and stays there long after the wound "
+"itself has healed."
 msgstr ""
 
 #. [unit_type], id=Unstable Elemental, race=elemental
@@ -9316,9 +9404,9 @@ msgstr ""
 #. [unit_type], id=Steel Dominant, race=steelhive, gender=female
 #: .\units\steelhive\steel_dominant.cfg:19
 msgid ""
-"Leading such a proteiformus army as the steelhive is a task that cannot be "
+"Leading such a protean army as the steelhive is a task that cannot be "
 "achieved by a single organism. The Steelhive therefore takes its best "
-"elements and fuse them into a single model profitient in multi-tasking. This "
+"elements and fuse them into a single model proficient in multi-tasking. This "
 "mastery allows it to command the Steelhive as well as making it a formidable "
 "enemy able to attack multiple targets at once. However, injuring the Dominant"
 " makes it loose part of its multi-tasking ability, making it less deadly "
@@ -9605,9 +9693,9 @@ msgid ""
 "Experimentation with the Kalkunids resulted in several new model strains; as "
 "usual, the Steelhive engaged in its practice of conjoining multiple instances"
 " of the same species to create elite forms. These designs were rightly "
-"regarded as abominations by the Kalkunids, and while they brought great "
-"firepower to the field they also served to galvanized the Kalkunids to unite "
-"against the Steelhive at last. This would not save them, in the end."
+"regarded as abominations by the Kalkunids and, while they brought great "
+"firepower to the field, they also served to galvanized the Kalkunids to unite"
+" against the Steelhive at last. This would not save them, in the end."
 msgstr ""
 
 #. [unit_type], id=Steel Wyrm, race=steelhive, gender=female
@@ -9738,6 +9826,129 @@ msgid ""
 "troll with proper armament is entirely unsettling."
 msgstr ""
 
+#. [unit_type], id=Bone Guardian, race=undead
+#: .\units\undead\Bone_Guardian.cfg:4
+msgid "Bone Guardian"
+msgstr ""
+
+#. [unit_type], id=Bone Guardian, race=undead
+#: .\units\undead\Bone_Guardian.cfg:17
+msgid ""
+"Stripped of all flesh by age or deliberate design, the Bone Guardian is the "
+"hardened remnant of a once-dutiful custodian. Its bones, bleached and "
+"seasoned by centuries beneath scorching sands, resist both fire and the "
+"crushing weight of battle. Where others might falter or flee, a Bone Guardian"
+" stands resolute — an unyielding wall of rattling death that no master need "
+"ever fear will abandon its post."
+msgstr ""
+
+#. [unit_type], id=Bone Ranger, race=undead
+#: .\units\undead\Bone_Ranger.cfg:5
+msgid "Bone Ranger"
+msgstr ""
+
+#. [unit_type], id=Bone Ranger, race=undead
+#: .\units\undead\Bone_Ranger.cfg:18
+msgid ""
+"Once skilled hunters and rangers in life, these skeletal remnants have been "
+"raised by dark sorcery and bound to an oath never spoken in life. Driven by a"
+" cold, unrelenting hunger for vengeance, they stalk their quarry across "
+"marshland and ruin — drawing back fleshless fingers upon a bowstring and "
+"loosing arrows that carry the chill of the grave."
+msgstr ""
+
+#. [attack], type=impact, range=melee
+#: .\units\undead\Bone_Ranger.cfg:32
+#: .\units\undead\Death_Stalker.cfg:32
+msgid "bone dagger"
+msgstr ""
+
+#. [unit_type], id=Bone Skeleton, race=undead
+#: .\units\undead\Bone_Skeleton.cfg:5
+msgid "Bone Skeleton"
+msgstr ""
+
+#. [unit_type], id=Bone Skeleton, race=undead
+#: .\units\undead\Bone_Skeleton.cfg:28
+msgid ""
+"Bone Skeletons, clad in bone armour and armed with two bone maces, are an "
+"awe-inspiring tool of doom imployed by the great undead overlords. They are "
+"slower than the most of undead but that only adds to the horror of meeting "
+"one. Lagging behind the ranks of front-liners, these monsters wait for a "
+"perfect moment to strike the victims in any breach in their formation. Their "
+"armour makes them even less vulnerable to any kind of physical damage and "
+"their big bone maces deal heavy blows to their confused enemies."
+msgstr ""
+
+#. [attack], type=impact, range=melee
+#: .\units\undead\Bone_Skeleton.cfg:40
+msgid "bone mace"
+msgstr ""
+
+#. [unit_type], id=Death Stalker, race=undead
+#: .\units\undead\Death_Stalker.cfg:5
+msgid "Death Stalker"
+msgstr ""
+
+#. [unit_type], id=Death Stalker, race=undead
+#: .\units\undead\Death_Stalker.cfg:18
+msgid ""
+"The most feared of undead archers, these ancient hunters have haunted the "
+"wastelands so long that no memory of their former lives remains. They move "
+"without thought or mercy, guided only by their master's will and an instinct "
+"sharpened by centuries of death. Their soul-arrows are dreaded above all else"
+" — for what the body survives, the spirit may not."
+msgstr ""
+
+#. [unit_type], id=Grave Sentinel, race=undead
+#: .\units\undead\Grave_Sentinel.cfg:5
+msgid "Grave Sentinel"
+msgstr ""
+
+#. [unit_type], id=Grave Sentinel, race=undead
+#: .\units\undead\Grave_Sentinel.cfg:18
+msgid ""
+"Before the great cities crumbled and the desert swallowed their names, Grave "
+"Sentinels stood watch over the thresholds the living were never meant to "
+"cross. They were made to last — and they have. An age of windblown sand has "
+"done nothing to weaken their throws or dull the cold certainty that drives "
+"them. When a Grave Sentinel rises, it does not rage. It simply resumes. The "
+"vigil never ended; the intruders merely paused."
+msgstr ""
+
+#. [attack], type=impact, range=ranged
+#: .\units\undead\Grave_Sentinel.cfg:44
+#: .\units\undead\Skull_Barrager.cfg:43
+#: .\units\undead\Skull_Slinger.cfg:43
+msgid "skull"
+msgstr ""
+
+#. [attack], type=impact, range=ranged
+#: .\units\undead\Grave_Sentinel.cfg:54
+#: .\units\undead\Skull_Barrager.cfg:53
+#: .\units\undead\Skull_Slinger.cfg:53
+msgid "barrage"
+msgstr ""
+
+#. [unit_type], id=Grave Titan, race=undead
+#: .\units\undead\Grave_Titan.cfg:5
+msgid "Grave Titan"
+msgstr ""
+
+#. [unit_type], id=Grave Titan, race=undead
+#: .\units\undead\Grave_Titan.cfg:19
+msgid ""
+"Ascending the chains of undeath, Draugs metamorphose into the formidable "
+"Grave Titans, an embodiment of the macabre fusion of raw physical power and "
+"relentless spirit. These skeletal leviathans bear the battle scars of "
+"countless combats, their strength surpassing the norms for their undead "
+"brethren. Donning imposing steel shields, these monoliths of the battlefield "
+"act as unyielding barriers against their foes, their dark battleaxes "
+"reverberating with an ominous hum, spreading terror and destruction across "
+"the battlefield. The structural changes in their bones make them particularly"
+" resistant to physical damage."
+msgstr ""
+
 #. [unit_type], id=Crypt Hierophant, race=undead
 #: .\units\undead\Necro_Crypt_Hierophant.cfg:5
 msgid "Crypt Hierophant"
@@ -9813,6 +10024,126 @@ msgid ""
 "feared by all alike."
 msgstr ""
 
+#. [unit_type], id=Reptilian Husk, race=undead
+#: .\units\undead\Reptilian_Husk.cfg:4
+msgid "Reptilian Husk"
+msgstr ""
+
+#. [unit_type], id=Reptilian Husk, race=undead
+#: .\units\undead\Reptilian_Husk.cfg:32
+msgid ""
+"The practice of necromancy is unknown among the reptilians, but their augurs "
+"practice other arts, older and equally vile. The most terrible of these uses "
+"an elixir of rare herbs and dark rituals to induce a deathlike trance in "
+"their still-living brethren; in this state the lifeless husks act as "
+"barely-sentient slaves, commanded by their creators' dark magics. It is "
+"speculated by some loremasters that these creatures are a precursor to the "
+"vile ghoul, and that human necromancers learned such craft from the "
+"reptilians. Few have a chance to study these unliving abominations in detail,"
+" however; while alone these shambling forms may seem slow and clumsy, they "
+"retain a deadly pack instinct and once they have their prey surrounded they "
+"rip into it with astonishing speed and viciousness."
+msgstr ""
+
+#. [unit_type], id=Reptilian Stalker, race=undead
+#: .\units\undead\Reptilian_Stalker.cfg:4
+msgid "Reptilian Stalker"
+msgstr ""
+
+#. [unit_type], id=Reptilian Stalker, race=undead
+#: .\units\undead\Reptilian_Stalker.cfg:32
+msgid ""
+"The practice of necromancy is unknown among the reptilians, but their augurs "
+"practice other arts, older and equally vile. The most terrible of these uses "
+"an elixir of rare herbs and dark rituals to induce a deathlike trance in "
+"their still-living brethren; in this state the lifeless lurkers act as "
+"barely-sentient slaves, commanded by their creators' dark magics. It is "
+"speculated by some loremasters that these creatures are a precursor to the "
+"vile ghoul, and that human necromancers learned such craft from the "
+"reptilians. Few have a chance to study these unliving abominations in detail,"
+" however; while alone these shambling forms may seem slow and clumsy, they "
+"retain a deadly pack instinct and once they have their prey surrounded they "
+"rip into it with astonishing speed and viciousness."
+msgstr ""
+
+#. [unit_type], id=Reptilian Terror, race=undead
+#: .\units\undead\Reptilian_Terror.cfg:4
+msgid "Reptilian Terror"
+msgstr ""
+
+#. [unit_type], id=Reptilian Terror, race=undead
+#: .\units\undead\Reptilian_Terror.cfg:33
+msgid ""
+"The practice of necromancy is unknown among the reptilians, but their augurs "
+"practice other arts, older and equally vile. The most terrible of these uses "
+"an elixir of rare herbs and dark rituals to induce a deathlike trance in "
+"their still-living brethren; in this state the lifeless terrors act as "
+"barely-sentient slaves, commanded by their creators' dark magics. It is "
+"speculated by some loremasters that these creatures are a precursor to the "
+"vile ghoul, and that human necromancers learned such craft from the "
+"reptilians. Few have a chance to study these unliving abominations in detail,"
+" however; while alone these shambling forms may seem slow and clumsy, they "
+"retain a deadly pack instinct and once they have their prey surrounded they "
+"rip into it with astonishing speed and viciousness."
+msgstr ""
+
+#. [unit_type], id=Risen Colossus, race=undead
+#: .\units\undead\Risen_Colossus.cfg:4
+msgid "Risen Colossus"
+msgstr ""
+
+#. [unit_type], id=Risen Colossus, race=undead
+#: .\units\undead\Risen_Colossus.cfg:18
+msgid ""
+"An abomination only conceivably worked on by experienced necromancers, the "
+"black thrall towers over its master's enemies with a combination of hunger "
+"and rage atypical of their creations. Its unusual behaviour and ghoul-like "
+"attitude makes even most of their masters fearful of even calling upon their "
+"help."
+msgstr ""
+
+#. [unit_type], id=Risen Hulk, race=undead
+#: .\units\undead\Risen_Hulk.cfg:4
+msgid "Risen Hulk"
+msgstr ""
+
+#. [unit_type], id=Risen Hulk, race=undead
+#: .\units\undead\Risen_Hulk.cfg:17
+msgid ""
+"Although their ever increasing size and suffocating stench of decay hinders "
+"their ability to pass as a human in any kind of situation, the iron thrall "
+"exibhits enough strengh to be armed with a strong weapon capable of crushing "
+"even the most valiant of knights."
+msgstr ""
+
+#. [unit_type], id=Risen Serf, race=undead
+#: .\units\undead\Risen_Serf.cfg:4
+msgid "Risen Serf"
+msgstr ""
+
+#. [unit_type], id=Risen Serf, race=undead
+#: .\units\undead\Risen_Serf.cfg:17
+msgid ""
+"The life-like appearance of the thrall can confuse people when seen from afar"
+" or in the darkness. Nerverthless, the sighting of its swollen and blackened "
+"body reveals his true nature as a creation of an evil mind."
+msgstr ""
+
+#. [unit_type], id=Skeleton Custodian, race=undead
+#: .\units\undead\Skeleton_Custodian.cfg:5
+msgid "Skeleton Custodian"
+msgstr ""
+
+#. [unit_type], id=Skeleton Custodian, race=undead
+#: .\units\undead\Skeleton_Custodian.cfg:22
+msgid ""
+"From a distance, a custodian might be mistaken for a living soldier — until "
+"the stench of decay and its bloated, blackened flesh betray what it truly is."
+" Bound to guard the sacred places of the dead, these ancient sentinels patrol"
+" their posts with a relentless, unthinking devotion that no living soldier "
+"could sustain."
+msgstr ""
+
 #. [unit_type], id=Dark Invader, race=undead
 #: .\units\undead\Skele_Dark_Invader.cfg:5
 msgid "Dark Invader"
@@ -9863,7 +10194,7 @@ msgid "Grim Knight"
 msgstr ""
 
 #. [unit_type], id=Grim Knight, race=undead
-#: .\units\undead\Skele_Grim_Knight.cfg:31
+#: .\units\undead\Skele_Grim_Knight.cfg:33
 msgid ""
 "When a Chocobone has served long enough in the undead legions, the dark magic"
 " that animates it begins to seep into the very bones of both rider and mount,"
@@ -9875,6 +10206,36 @@ msgid ""
 "of the lost civilization's undead armies, striking with the precision of "
 "death itself as they charge into battle with a dread that chills the hearts "
 "of the living."
+msgstr ""
+
+#. [unit_type], id=Skull Barrager, race=undead
+#: .\units\undead\Skull_Barrager.cfg:5
+msgid "Skull Barrager"
+msgstr ""
+
+#. [unit_type], id=Skull Barrager, race=undead
+#: .\units\undead\Skull_Barrager.cfg:17
+msgid ""
+"A Skull Slinger fights from instinct; a Skull Barrager fights from habit "
+"ground into its bones across decades of undeath. Its throws are not frantic "
+"but measured — a rapid, precisely spaced volley that lets no formation "
+"advance without cost. The dry desert preserves them well. There is nothing to"
+" rot, nothing to weaken — only the patient accumulation of lethal repetition."
+msgstr ""
+
+#. [unit_type], id=Skull Slinger, race=undead
+#: .\units\undead\Skull_Slinger.cfg:5
+msgid "Skull Slinger"
+msgstr ""
+
+#. [unit_type], id=Skull Slinger, race=undead
+#: .\units\undead\Skull_Slinger.cfg:17
+msgid ""
+"Skull Slingers do not forge weapons — they scavenge them from the dead. A "
+"skull hurled by skeletal arms strikes harder than it has any right to, and "
+"these undead never want for ammunition. Between battles they lie dormant "
+"beneath the dunes, indistinguishable from buried rubble, waiting in perfect "
+"silence for the tremor of boots on sand to drag them back into purpose."
 msgstr ""
 
 #. [unit_type], id=Shadowback, race=undead
@@ -10004,10 +10365,10 @@ msgstr ""
 #. [unit_type], id=Blood Manipulator, race=vampire
 #: .\units\vampires\Blood_Manipulator.cfg:19
 msgid ""
-"It is horrifying what an skilled manipulator of blood can do to you.. He can "
-"cause your every vein to burn. He can strip you of food, or cause you to "
-"vomit, or burn through your brain. Horrifying as as that is what he can do to"
-" your spirit is worse."
+"It is revolting, what a skilled manipulator of blood can do to you. He can "
+"cause your every vein to sear. He can starve your flesh, twist your gut, or "
+"char your very thoughts from the inside. Horrifying as that is, what he can "
+"do to your spirit is worse."
 msgstr ""
 
 #. [unit_type], id=Day Hunter, race=vampire
@@ -10041,7 +10402,7 @@ msgid ""
 "A Duchess is a powerful, yet elegant vampiress who is often the wife of a "
 "Methusalem. Even though a Duchess is feared for all the minions she controls,"
 " she is capable of ravaging her enemies with her graceful swordsmanship and "
-"her dementing gaze; in addition she has a powerful bite. It is wise not to "
+"her dementing gaze; in addition, she has a powerful bite. It is wise not to "
 "get in her way due to her dreadful power and the vast number of minions she "
 "controls."
 msgstr ""
@@ -10086,7 +10447,7 @@ msgid ""
 "Most vampires are weak ones in service of the lords and more powerful ones, "
 "hoping and waiting that they will rise into a position of power for "
 "themselves. Until then they serve him in exchange for blood. When there are "
-"no more humans and half bloods, these vampires are the next most expendable "
+"no more humans and halfbloods, these vampires are the next most expendable "
 "thing a vampire lord has."
 msgstr ""
 
@@ -10118,8 +10479,8 @@ msgstr ""
 #. [unit_type], id=Half Blood, race=vampire
 #: .\units\vampires\Half_Blood.cfg:27
 msgid ""
-"halfbloods vampire blood grows stronger as they kill. When they are balanced "
-"roughly evenly between both bloods, they are known as half bloods."
+"Halfbloods vampire blood grows stronger as they kill. When they are balanced "
+"roughly evenly between both bloods, they are known as halfbloods."
 msgstr ""
 
 #. [female]
@@ -10135,7 +10496,7 @@ msgstr ""
 #. [unit_type], id=Malborn, race=vampire
 #: .\units\vampires\Malborn.cfg:23
 msgid ""
-"Some people are simply to weak to handle the blood, and it leaves them a "
+"Some people are simply too weak to handle the blood, and it leaves them a "
 "mindless mess. This gives the vampire lord complete control over what is left"
 " of them. Because of this control, the vampire lord is quite willing to arm "
 "these creatures with poisoned daggers. Unlike his other servants, these ones "
@@ -10171,7 +10532,7 @@ msgid ""
 "vampiresses are capable of unleashing a world of pain and suffering upon "
 "their enemies with their twin daggers and their dementing gaze. The minions "
 "and mercenaries which serve her fight significantly better whenever they "
-"around her, sometimes it is unknown wether she is leading them or the "
+"around her, sometimes it is unknown whether she is leading them or the "
 "mercenaries and minions are protecting her in order to protect themselves "
 "from the wrath of the Mistress' husband."
 msgstr ""
@@ -10188,10 +10549,10 @@ msgid ""
 "land they can hold. They use charm, terror, and ruthlessness to uphold their "
 "reign. They will surround themselves with their loyal vampires, whom they "
 "keep in check with the promise of continual blood, and subject any lesser "
-"creature to be the surfs of their society, and to provide blood or "
+"creature to be the serfs of their society, and to provide blood or "
 "cannon-fodder in an emergency. They do not feed on them directly in most "
 "circumstances, because that tends to lead to rebellion, but rather force the "
-"surfs to provide animals for their weekly blood."
+"serfs to provide animals for their weekly blood."
 msgstr ""
 
 #. [female]
@@ -10253,9 +10614,9 @@ msgstr ""
 msgid ""
 "Not all bloodborn grow towards their vampire side. Some lean on the human "
 "side, and can stand the daylight, and use a bow, which most vampires disdain "
-"as a peasant weapon. However they still have the vampires curse of blood "
+"as a peasant weapon. However, they still have the vampires curse of blood "
 "thirst on them, giving them a reason to continue to serve their lord. These "
-"qualities make them a valuable support for a vampires army."
+"qualities make them a valuable support for a vampire's army."
 msgstr ""
 
 #. [female]
@@ -10272,8 +10633,8 @@ msgstr ""
 #: .\units\vampires\Twilight_Walker.cfg:29
 msgid ""
 "After reaching the halfway point, a halfblood can choose to go back, but many"
-" prefer not too. Those who don't are known as twilight walkers, and are among"
-" a lords most trusted servants, because they could have chosen day, but did "
+" prefer not to. Those who don't are known as twilight walkers, and are among "
+"a lords most trusted servants, because they could have chosen day, but did "
 "not. As such they are often entrusted with poisons, and assassinations. For a"
 " vampire lord will always have enemies some of which are better slain with "
 "poison in the twilight, than with an army at night."
@@ -10368,9 +10729,9 @@ msgid ""
 "levitation ciphers. There are many benefits to this. Rough terrain possesses "
 "little impediment, as do ice and water, and delicate loads can be carried "
 "quickly. However, their devotion to levitation denies them access to the more"
-" offensive ciphers. Instead, they tend to carry sharpned rocks and hit their "
-"opponents with them if they come too close. Their skill at manipulating "
-"gravity makes their long distance attacks uncannily accurate."
+" offensive ciphers. Instead, they tend to carry sharpened rocks and hit their"
+" opponents with them if they come too close. Their skill at manipulating "
+"gravity makes their long-distance attacks uncannily accurate."
 msgstr ""
 
 #. [unit_type], id=Dreadnought, race=windsong, gender=female
@@ -10420,12 +10781,12 @@ msgid ""
 "guard against this, some Weavers focus their attention on the Sky Shards, "
 "learning to emulate the Shard's detachment from reality. Once submersed in "
 "The Raw, they can move long distances just as the Shards can. The Council "
-"relies on these Envoys to asses operations or be the field advisers in an "
+"relies on these Envoys to assess operations or be the field advisers in an "
 "emergency. This amazing power comes at the cost of their studies in other "
 "areas like healing and battle, so while they can advise and coordinate field "
 "agents, they cannot lead them in battle or heal them afterwards. Furthermore,"
 " to remain in The Raw for more than an instant is dangerous, so Envoys cannot"
-" use it to protect themselves in the same was as the Shards.\n"
+" use it to protect themselves in the same way as the Shards.\n"
 "\n"
 "Envoys can move instantly between areas of high cipher activity (friendly "
 "towns). Envoys cannot heal any more."
@@ -10626,11 +10987,11 @@ msgid ""
 "possibilities change. Through her accompanying spirit, some Weavers learn to "
 "interpret flows in The Raw as predictions for future events. With time and "
 "experience, her predictions become more accurate and dependable. Eventually, "
-"if she is of quality, she will be invited to join the ranks of the Prophets. "
-"Unlike the farseers of other peoples, the Windsong Prophetesses do not "
-"'witness' events so much as apply an expanded form of cause and effect. "
-"Knowing all flows are open to interpretation, Prophets are discouraged from "
-"making predictions without the council of her peers.\n"
+"if she is of quality, she will be invited to join the ranks of the "
+"Prophetesses. Unlike the farseers of other peoples, the Windsong Prophetesses"
+" do not 'witness' events so much as apply an expanded form of cause and "
+"effect. Knowing all flows are open to interpretation, Prophetesses are "
+"discouraged from making predictions without the council of her peers.\n"
 "\n"
 "Unlike Envoys, Prophetesses have much time to study the arts of leadership "
 "and healing, and she has now learned to cure poison. Such is the respect of "
